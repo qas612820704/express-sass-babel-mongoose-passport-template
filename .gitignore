@@ -2,3 +2,4 @@ node_modules/
 *.jsx
 _cache
 db/
+npm-debug.log

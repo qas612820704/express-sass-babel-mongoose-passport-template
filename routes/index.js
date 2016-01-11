@@ -9,10 +9,7 @@ router.use(function(req, res, next) {
 });
 
 router.get('/', function(req, res, next) {
-  res.render('index', { 
-    title: 'lalala',
-    name: 'John'
-  });
+  res.render('index', {});
 });
 router.get('/ping', function(req, res, next) {
   res.send('pong!');
