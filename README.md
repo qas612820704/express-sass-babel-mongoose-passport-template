@@ -1,9 +1,11 @@
 ## 安裝
+
 > 我東西盡量都寫進 `Makefiile` 裡面
 > 如果有好的想法可以跟我說!
+
 ```bash
   $ git clone git@github.com:qas612820704/express-sass-babel-mongoose-passport-template.git
-  > 或是fork過去自己的 Repo
+  // 或是fork過去自己的 Repo
   $ npm install
   $ make test // 現在只有測試User跟Profile的model
   $ npm start // 直接白箱看登入系統
@@ -12,6 +14,7 @@
 ```
 
 ## 使用
+
 ```bash
   $ make dbserv // 如果未安裝 mongodb 請用自己的套件庫安裝
                 // 或是自己安裝 記得加入 $PATH
