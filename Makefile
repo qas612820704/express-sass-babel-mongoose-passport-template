@@ -9,6 +9,3 @@ dbclient:
 
 test:
 	@./node_modules/.bin/mocha
-
-es6:
-	babel ./es6 --watch --out-dir ./public/es6/

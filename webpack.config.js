@@ -2,10 +2,10 @@ var webpack = require("webpack");
 module.exports = {
   entry: {
     vendor: ['react', 'react-dom', 'whatwg-fetch'],
-    app: __dirname + '/js/src/app.js',
+    app: __dirname + '/public/javascripts/src/app.js',
   },
   output: {
-    path: __dirname + '/js/dist/',
+    path: __dirname + '/public/javascripts/dist/',
     filename: "[name].bundle.js"
   },
   module: {
